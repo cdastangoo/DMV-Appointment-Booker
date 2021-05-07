@@ -233,7 +233,7 @@ def select_appointment(time_element):
     save_data(data)
     # save pdf confirmation
     if SAVE_AS_PDF:
-        save_pdf(save_month, save_date, confirmation_time)
+        save_pdf(save_month, save_date, save_time)
     exit(0)
 
 
